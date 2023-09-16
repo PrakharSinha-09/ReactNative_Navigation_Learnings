@@ -35,7 +35,7 @@ function App(): JSX.Element {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home' >
         <Stack.Screen 
-        name='Home'
+        name='Home'                              //the name could be any, whatever you wish too!
         component={Home}
         options={{
           title:"Trending Products"
